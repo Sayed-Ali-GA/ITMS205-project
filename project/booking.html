@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointments</title>
+</head>
+<body>
+    
+        <h1>Book Your Appointment</h1>
+        <p>Please fill in your details below</p>
+
+
+        <a href="home.html">
+            <button type="button">Go Back</button>
+        </a>
+
+        <br>
+        <br>
+
+      <form method="POST" action="https://www.moh.gov.bh/">
+            
+                <label for="name">Full Name:</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Enter Your Name" 
+                        required
+                    >
+            <br>
+            <br>
+
+                <label for="poneNumber">Phone Number:</label>
+                    <input 
+                        type="tel"
+                        id="poneNumber"
+                        name="poneNumber"
+                        placeholder="+973 xxxxxxxx"
+                        required
+                    >
+
+            <br>
+            <br>
+            
+                <label for="email">Email:</label>
+                    <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your Email @gmail.com"
+                        required
+                    >
+
+            <br>
+            <br>
+            
+                <label for="path">Choose the appropriate path</label>
+                    <select name="path" id="path">
+                        <option value="general">General</option>
+                        <option value="ear_throat">Ear, Nose & Throat (ENT)</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="dermatology">Dermatology</option>
+                        <option value="orthopedic">Orthopedic</option>
+                        <option value="neurology">Neurology</option>
+                    </select>
+
+            <br>
+            <br>
+
+                    <label for="age">Your Age:</label>
+                        <input 
+                            type="number"
+                            id="age"
+                            name="age"
+                            placeholder="Your Age"
+                            required
+                        >
+                            
+
+            <br>
+            <br>
+
+
+                <label for="notes">Notes:</label>
+                    <textarea 
+                        id="notes"
+                        name="notes"
+                        placeholder="Write your notes....."
+                     ></textarea>   
+
+            <br>
+            <br>
+
+                <p>
+                    <label for="date">Appointment Date:</label>
+                        <input type="date" name="date" id="date">
+                    &
+                        <label for="time">Appointment Time:</label>
+                            <input type="time" id="time" name="time" required>
+                </p>
+
+            <br>
+            <br>
+
+                <label for="Gender">Gender:-</label>
+                    <p> 
+                        Male    <input type="radio"  name="gender" id="male" value="male">
+                        |  
+                        Female  <input type="radio"  name="gender" id="female" value="female"> 
+                    </p>  
+                    
+            <br>
+            <br>
+            
+                  
+                    
+
+
+            <button type="submit">Booking</button>
+            <br>
+            <br>
+            <button type="reset">Clear</button>
+      </form>
+
+
+</body>
+</html>
