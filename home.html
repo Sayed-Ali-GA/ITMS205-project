@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylesheet/styles.css">
+    <link rel="icon" type="image/png" href="/images/doctor.png" />
     <title>Home</title>
 </head>
 <body>
 
         <nav>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <a href="home.html"><img src="images/logo.png" alt="LOGO" width="20%"></a>
 
-            <a href="home.html"><img src="images/logo.png" alt="LOGO" width="5%"></a>
-
-            <a href="home.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="booking.html">Booking</a>
+                <p align="right">    
+                    <a href="home.html">Home</a> |
+                    <a href="products.html">Products</a> |
+                    <a href="booking.html">Booking</a>
+                </p>     
+            </div>    
         </nav>
 
         <hr>
@@ -26,23 +32,27 @@
         <br>
         <br>
 
-       <img src="images/doctor.png" alt="doctor" width="20%">
+        <p align="center">
+            <img src="images/doctor.png" alt="doctor" width="22%">
+        </p>
+
 
 
         <br>
         <br>
 
-        <label for="Booking">Book Your Appointment:</label>
-        <a href="booking.html">
-            <button><strong>Booking Appointment</strong></button>
-        </a>
-
+       <p align="center">  
+                <label for="Booking">Book Your Appointment:</label>
+            <a href="booking.html">
+                <button class="button"><strong>Booking Appointment</strong></button>
+            </a>
+        </p>
     
-        <h3>Our Services:</h3>           
+        <h3 id="services">Our Services:</h3>           
                 <ul>                                            
                     <li> <strong>General Medicine</strong> </li>
                     <li> <strong>Ear, Nose & Throat (ENT)</strong> </li>
-                    <li><a href="products.html">See More...</a></li>                                                       
+                    <li><a href="products.html" id="link-seeMore">See More...</a></li>                                                       
                 </ul>    
 
 
@@ -58,12 +68,12 @@
                 
         <h2>Our Doctors:</h2>
 
-        <table border="table">
+        <table border="table" align="center" class="table">
                 <caption><strong>The doctors are highly experienced</strong></caption>            
 
                     <tr>
-                        <td><img src="images/Dr.Ali.png" alt="dr.Ali" width="100"></td>
-                        <td><img src="images/sara.png" alt="dr.Sara" width="200"></td>
+                        <td><img src="images/Dr.Ali.png" alt="dr.Ali" width="100" class="doctor"></td>
+                        <td><img src="images/sara.png" alt="dr.Sara" width="200" class="doctor"></td>
                         <td><img src="images/fatama.png" alt="fatama" width="100"></td>
                         <td><img src="images/hasan.png" alt="hasan" width="100"></td>
                         <td><img src="images/jassim.png" alt="dr.jassim" width="100"></td>
@@ -99,7 +109,7 @@
 
                     <tfoot>
                             <tr>
-                                <td colspan="6">
+                                <td colspan="6" align="center">
                                      All doctors are skilled and hold accredited and certified qualifications.
                                      , <a href="products.html"><strong> See Products And Price</strong></a>
                                 </td>
@@ -113,33 +123,35 @@
                 <h2>Book Now</h2>
                     <a href="booking.html">
                         <button>Booking Appointment</button>
-                    </a>
+                    </a>      
 
         <footer>
             <hr>
 
             <a href="home.html"><img src="images/logo.png" alt="LOGO" width="5%"></a>
 
-            <p>
-                <a href="https://www.google.com/maps/place/26%C2%B014'11.6%22N+50%C2%B035'34.5%22E/@26.236541,50.5954859,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.236541!4d50.592911?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D"> <strong>Location 📍</strong>
-            </p>
+                 
+            
+            <p align="center"> Quick Navigation:</p>
+                <p style="text-align:center;">
+                    <a href="home.html">Home</a> |
+                    <a href="products.html">Products</a> |
+                    <a href="booking.html">Booking</a>
+                </p>
 
-                <ul>
-                    <li> <a href="home.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li> <a href="booking.html">Booking</a></li>
-                </ul>
+                    <p style="text-align:center;">
+                        <a href="https://www.google.com/maps/place/26%C2%B014'11.6%22N+50%C2%B035'34.5%22E/@26.236541,50.5954859,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.236541!4d50.592911?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D"> 
+                            <strong>Location 📍</strong>
+                        </a>    
+                    </p> 
 
                 <br>
 
-                <p>                 
-                    <strong> Name: Sayed Ali Hussain Jaafar,</strong>
-                    <strong>ID: 202510622.</strong>
-                    <u> &copy 2026 All rights reserved </u>
-                </p>  
+                <p><strong> Name: Sayed Ali Hussain Jaafar</strong></p>
+                <p><strong>ID: 202510622</strong></p>                      
+                <p><u> &copy 2026 All rights reserved </u></p>
 
         </footer>
-
 
 </body>
 </html>
