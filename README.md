@@ -12,7 +12,7 @@ This is a multi-page website project developed for ITMS 205.
 The website allows users to view doctors, book appointments, and explore services offered.
 
 ### Features:
-- Home Page (`index.html`)  
+- Home Page (`home.html`)  
   - Welcome section
   - Quick booking button
   - Overview of services
@@ -37,20 +37,21 @@ The website allows users to view doctors, book appointments, and explore service
 
 ## File Structure
 ITMS205-project/
+|
 │
-├─ index.html         
+├─ home.html         
 ├─ booking.html      
 ├─ products.html      
 ├─ styles.css         
 ├─ images/            
-│   ├─ doctor.png
-│   ├─ Dr.Ali.png
-│   ├─ Dr.Sara.png
-│   ├─ Dr.Fatama.png
-│   ├─ Dr.Hasan.png
-│   ├─ Dr.Jassim.png
-│   ├─ Dr.Nasser.png
-│   ├─ Dr.map.png
-│   └─ Dr.logo.png
+│   ─ doctor.png
+│   ─ Dr.Ali.png
+│   ─ Dr.Sara.png
+│   ─ Dr.Fatama.png
+│   ─ Dr.Hasan.png
+│   ─ Dr.Jassim.png
+│   ─ Dr.Nasser.png
+│   ─ Dr.map.png
+│   ─ Dr.logo.png
 └─ README.md
         
