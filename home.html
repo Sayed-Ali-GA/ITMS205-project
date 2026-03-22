@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="stylesheet/styles.css">
-    <link rel="icon" type="image/png" href="/images/doctor.png" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
     <title>Home</title>
 </head>
 <body>
 
-        <nav>
+        <nav class="nav">
             <div style="display: flex; justify-content: space-between; align-items: center;">
-                <a href="home.html"><img src="images/logo.png" alt="LOGO" width="20%"></a>
+                <a href="home.html"><img src="images/logo.png" alt="LOGO" width="14%"></a>
+                <div id="name"> <a href="home.html" id="webName">HealthCare</a></div>
 
-                <p align="right">    
-                    <a href="home.html">Home</a> |
-                    <a href="products.html">Products</a> |
-                    <a href="booking.html">Booking</a>
+                
+                <p id="bar">    
+                    <a href="home.html" id="Tnav">Home</a> |
+                    <a href="products.html" id="Tnav">Services</a> |
+                    <a href="booking.html" id="Tnav">Booking</a> |
+                    <a href="about.html" id="Tnav">About Us</a>
+                        <h6></h6>
                 </p>     
-            </div>    
+
+            </div>            
         </nav>
 
-        <hr>
         
     
-        <h1>Welcome visitors </h1>
-        <h2>You can book your appointments here:-</h2>
-
+        <h1 style="color: rgba(0, 0, 0, 0.724);">Welcome in HealthCare </h1>
+        <h2 style="color: rgba(0, 0, 0, 0.621);">You can book your appointments here:-</h2>
 
         <br>
         <br>
@@ -37,12 +40,8 @@
         </p>
 
 
-
-        <br>
-        <br>
-
        <p align="center">  
-                <label for="Booking">Book Your Appointment:</label>
+                <label for="Booking" style="font-size: large;">Book Your Appointment:</label>
             <a href="booking.html">
                 <button class="button"><strong>Booking Appointment</strong></button>
             </a>
@@ -56,102 +55,40 @@
                 </ul>    
 
 
-        <br>
-        <br>
-        
-                <p>
-                    <a href="https://www.google.com/maps/place/26%C2%B014'11.6%22N+50%C2%B035'34.5%22E/@26.236541,50.5954859,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.236541!4d50.592911?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D"><strong>Our Location 📍</strong> <br>
-                        <img src="images/map.png" alt="Location" width="20%">
-                    </a>
-                </p>
 
-                
-        <h2>Our Doctors:</h2>
+        <div align="center">     
+            <h2>About Our Medical Center</h2>
+                    <p>Discover who we are and the services we provide.</p>
+                        <a href="about.html">
+                            <button>Learn More</button>
+                        </a>
+        </div>   
 
-        <table border="table" align="center" class="table">
-                <caption><strong>The doctors are highly experienced</strong></caption>            
-
-                    <tr>
-                        <td><img src="images/Dr.Ali.png" alt="dr.Ali" width="100" class="doctor"></td>
-                        <td><img src="images/sara.png" alt="dr.Sara" width="200" class="doctor"></td>
-                        <td><img src="images/fatama.png" alt="fatama" width="100"></td>
-                        <td><img src="images/hasan.png" alt="hasan" width="100"></td>
-                        <td><img src="images/jassim.png" alt="dr.jassim" width="100"></td>
-                        <td><img src="images/nasser.png" alt="fr.nasser" width="100"></td>
-                    </tr>
-
-                    <tr>
-                        <td><p>Name: <strong>Dr.Ali Jaafar </strong></p></td>
-                        <td><p>Name: <strong>Dr.Sara Muhammad </strong></p></td>                     
-                        <td><p>Name: <strong>Dr.Fatama Jamal </strong></p></td>                     
-                        <td><p>Name: <strong>Dr.Hasan Ali </strong></p></td>                     
-                        <td><p>Name: <strong>Dr.Jassim Habib </strong></p></td>                     
-                        <td><p>Name: <strong>Dr.Nasser Younis </strong></p></td>                                                  
-                    </tr>
-
-                    <tr>
-                        <td><p>Specialty: <strong>General</strong></p></td>
-                        <td><p>Specialty: <strong>Ear, Nose & Throat (ENT)</strong></p></td>
-                        <td><p>Specialty: <strong>Cardiology</strong></p></td>
-                        <td><p>Specialty: <strong>Dermatology</strong></p></td>
-                        <td><p>Specialty: <strong>Orthopedic</strong></p></td>
-                        <td><p>Specialty: <strong>Neurology</strong></p></td>                        
-                    </tr>
-
-                    <tr>
-                        <td><p>Experience: 10</p></td>
-                        <td><p>Experience: 9</p></td>
-                        <td><p>Experience: 20</p></td>
-                        <td><p>Experience: 12</p></td>
-                        <td><p>Experience: 22</p></td>
-                        <td><p>Experience:  15</p></td>                     
-                    </tr>
-
-                    <tfoot>
-                            <tr>
-                                <td colspan="6" align="center">
-                                     All doctors are skilled and hold accredited and certified qualifications.
-                                     , <a href="products.html"><strong> See Products And Price</strong></a>
-                                </td>
-                             </tr>           
-                    </tfoot>
-
-        </table>
-
-        <br>
-
-                <h2>Book Now</h2>
-                    <a href="booking.html">
-                        <button>Booking Appointment</button>
-                    </a>      
-
-        <footer>
+        <footer class="footer">
             <hr>
+                    <p align="center"> Quick Navigation:</p>
 
-            <a href="home.html"><img src="images/logo.png" alt="LOGO" width="5%"></a>
+                        <p style="text-align:center;">
+                            <a href="home.html">Home</a> |
+                            <a href="products.html">Products</a> |
+                            <a href="booking.html">Booking</a>
+                         </p>
 
-                 
-            
-            <p align="center"> Quick Navigation:</p>
-                <p style="text-align:center;">
-                    <a href="home.html">Home</a> |
-                    <a href="products.html">Products</a> |
-                    <a href="booking.html">Booking</a>
-                </p>
-
-                    <p style="text-align:center;">
-                        <a href="https://www.google.com/maps/place/26%C2%B014'11.6%22N+50%C2%B035'34.5%22E/@26.236541,50.5954859,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.236541!4d50.592911?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D"> 
-                            <strong>Location 📍</strong>
-                        </a>    
-                    </p> 
+                            <p style="text-align:center;">
+                                <a href="https://www.google.com/maps/place/26%C2%B014'11.6%22N+50%C2%B035'34.5%22E/@26.236541,50.5954859,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.236541!4d50.592911?entry=ttu&g_ep=EgoyMDI2MDMxNy4wIKXMDSoASAFQAw%3D%3D"> 
+                                    <strong>Location 📍</strong>
+                                </a>    
+                            </p> 
 
                 <br>
 
-                <p><strong> Name: Sayed Ali Hussain Jaafar</strong></p>
-                <p><strong>ID: 202510622</strong></p>                      
-                <p><u> &copy 2026 All rights reserved </u></p>
+                        <p><strong>Student Name: </strong>Sayed Ali Hussain Jaafar</p>
+                        <p><strong>Student ID: </strong>202510622</p>     
+                        <p><strong>Sec: </strong>1</p>                 
+                        <p><u> &copy 2026 All rights reserved </u></p>
 
         </footer>
+
 
 </body>
 </html>
