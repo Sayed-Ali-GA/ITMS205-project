@@ -9,7 +9,7 @@ body {
 button {
     padding: 10px 20px;
     color: black;
-    background-color: #a9ffdd;
+    background-color: #17f79e;
     border:#007011;
     border-radius: 50px;
     transition: background-color 1s;
@@ -122,3 +122,56 @@ nav{
     font-size: large;
 }
 
+form{
+    background-color: #bffff890;
+    padding: 5% ;
+    width: 40%;
+    border-radius: 10%;
+    color: #000000be;
+
+}form:hover{
+    background-color: #bffff8c1;
+}
+
+#book{
+    margin: 30%;
+    font-size: larger;
+    font-family:monospace ;
+    color: #000000;
+}
+
+input{
+    width: 45%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fafafae3;
+}input:hover{
+    width: 42%;
+    background-color: #00000022;
+}
+
+select{
+    width: 45%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: fafafaa0;
+}select:hover{
+    width: 42%;
+    background-color: #00000057;
+}
+
+textarea{
+    width: 50%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fafafaa0;
+}textarea:hover{
+        width: 49%;
+    background-color: #00000022;
+}
