@@ -81,6 +81,11 @@ nav{
     font-style: oblique;
     margin: auto;
     background-color: #2cbab3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
 }
 
 #bar{
@@ -190,3 +195,34 @@ textarea{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size: medium;
 }
+
+#navigation{
+    font-size: 130%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: none;
+    color: #0044f0c9;
+}#navigation:hover{
+    transition: color 1.3s;
+    font-size: 120%;
+    color: #06838fa9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navtMap a{
+    text-decoration: none;
+    color: #3100f5bf;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}#navtMap a :hover{
+    transition: color 1.3s;
+    font-size: 110%;
+    color: #8f0606a9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin: auto;
+}
+
