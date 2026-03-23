@@ -175,3 +175,18 @@ textarea{
         width: 49%;
     background-color: #00000022;
 }
+
+#mapImg{
+    border-radius: 7%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2)
+}#mapImg:hover{
+    width: 29.5%;
+    background-color: #ffffff3c;
+}
+
+#map a{
+    text-decoration: none;
+    color: #610404bf;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: medium;
+}
