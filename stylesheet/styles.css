@@ -80,13 +80,14 @@ nav{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     font-style: oblique;
     margin: auto;
-    background-color: #2cbab3;
+    background-color: #2cbab3da;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     margin-top: auto;
 }
+
 
 #bar{
 
@@ -225,4 +226,3 @@ footer p {
     margin-top: auto;
     margin: auto;
 }
-
