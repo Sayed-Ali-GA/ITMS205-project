@@ -13,7 +13,7 @@
 
         <nav class="nav">
             <div style="display: flex; justify-content: space-between; align-items: center;">
-                <a href="index.html"><img src="images/logo.png" alt="LOGO" width="12%"></a>
+                <a href="index.html"><img src="images/logo.png" alt="LOGO" width="12%" id="logo"></a>
                 <div id="name"> <a href="index.html" id="webName">HealthCare</a></div>
 
                 
@@ -22,16 +22,12 @@
                     <a href="products.html" id="Tnav">Services</a> |
                     <a href="booking.html" id="Tnav">Booking</a> |
                     <a href="about.html" id="Tnav">About Us</a>
-                        <h6></h6>
+                       
                 </p>     
 
             </div>            
         </nav>
- <br>
- <br>
- <br>
- <br>
- <br>
+
         <a href="index.html">
             <button type="button" id="back">Go Back</button>
         </a>       
@@ -42,38 +38,48 @@
     <div id="form" align="center">   
         <form method="GET" action="https://sayed-ali-d079702815d0.herokuapp.com/">
 
-                <label for="fullName" id="book"> Full Name: </label> 
-                    <input 
-                        type="text"
-                        id="fullName"
-                        name="fullName"
-                        placeholder="e.g. Name"
-                        required                  
-                    >   
+                <label for="fullName" id="book">
+                    <img width="15" height="15" src="https://img.icons8.com/material-outlined/24/name.png" alt="name"/> 
+                    Full Name: 
+                </label> 
+                        <input 
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="e.g. Name"
+                            required                  
+                        >      
 
             <br>
             <br>
 
-                <label for="poneNumber" id="book">Phone Number:</label>
-                    <input 
-                        type="tel"
-                        id="poneNumber"
-                        name="poneNumber"
-                        placeholder="+973 xxxxxxxx"
-                        required
-                    >
+                <label for="poneNumber" id="book">
+                    <img width="15" height="15" src="https://img.icons8.com/material-outlined/24/phone.png" alt="phone"/> 
+                        Phone Number: 
+                </label>
+
+                        <input 
+                            type="tel"
+                            id="poneNumber"
+                            name="poneNumber"
+                            placeholder="+973 xxxxxxxx " 
+                            required
+                        >
 
             <br>
             <br>
             
-                <label for="email" id="book">Email:</label>
-                    <input 
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Your Email @gmail.com"
-                        required
-                    >
+                <label for="email" id="book">
+                    <img width="15" height="15" src="https://img.icons8.com/material-outlined/24/mail.png" alt="mail"/>
+                    Email:
+                </label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email @gmail.com"
+                            required
+                        >
                     
             <br>
             <br>
@@ -100,12 +106,11 @@
                             required
                         >
                             
-
             <br>
 
                 <p>
                     <label for="date" id="book">Appointment Date:</label>
-                        <input type="date" name="date" id="date">        
+                        <input type="date" name="date" id="date" min="2026-01-01"">        
                             <input type="time" id="time" name="time" required>
                 </p>
 
@@ -124,26 +129,37 @@
             <br>
 
 
-                <label for="Gender" id="book">Gender:-</label>
-                    <p id="male"> Male    <input type="radio"  name="gender" id="male" value="male">  </p>
-                    <p id="female"> Female  <input type="radio"  name="gender" id="female" value="female"> </p>
+                            <p class="gender-option">
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="male">Male</label>
+                            </p>
+
+                        <img width="50" height="50" src="https://img.icons8.com/cotton/64/gender.png" alt="gender"/>
+
+                            <p class="gender-option">
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                            </p>
                     
                     
                     
             <br>
 
-                <label for="notes" id="book">Notes:</label>
-                    <textarea 
-                        id="notes"
-                        name="notes"
-                        placeholder="Write your notes....."
-                     ></textarea>                  
+                <label for="notes" id="book">
+                    <img width="20" height="20" src="https://img.icons8.com/sf-regular/48/create-new.png" alt="create-new"/>
+                    Notes:
+                </label>
+                        <textarea 
+                            id="notes"
+                            name="notes"
+                            placeholder="Write your notes....."
+                        ></textarea>                  
 
                      <br>
                      <br>
 
-            <button type="submit">Booking</button>
-            <button type="reset" id="clear">Clear</button>
+            <button type="submit"><strong>Booking</strong></button>
+            <button type="reset" id="clear">Clear <strong>X</strong> </button>
       </form>
 
     </div> 

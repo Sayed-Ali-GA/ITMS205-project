@@ -1,6 +1,7 @@
 body {
-        min-height: 100vh; 
-        margin: 0;
+    min-height: 100vh; 
+    margin: 0;
+    margin-top: 6%;
     padding: 0;
     background-color: #ffffff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -22,12 +23,13 @@ button {
 #link-seeMore{
     background-color: #f2f4fd;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    color: #2e2cba;
+    color: #4744f0;
     transition: background-color 1.5s;    
 }#link-seeMore:hover{
-    background-color: #3815d4;
+    background-color: #dad2ff;
     color: black;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 90%;
 }
 
 #back{
@@ -45,7 +47,7 @@ button {
 
 
 #clear{
-        padding: 10px 20px;
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     background-color: #c34b4b;
     border:#00e9fa;
@@ -72,7 +74,7 @@ button {
 
 footer{
 
-    background-color: #e4fcff;
+    background-color: #00ff9561;
 }
 
 
@@ -91,6 +93,7 @@ nav{
 
 #bar{
 
+    margin-right: 1%;
     color: #95f1ff;
 }
 
@@ -99,25 +102,28 @@ nav{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     text-decoration: none;
     color: #def8ff;
+    transition: 0.9s;
+
 }#Tnav:hover{
     transition: color 1.3s;
     font-size: 100%;
     color: #00000084;
+    font-family:'Times New Roman', Times, serif ;
+    transform: scale(1.10);
 }
 
 
 
-
 #webName{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     text-align: center;
     text-decoration: none;
-    font-style: oblique;
     color: #0000009d;
 }#webName:hover{
     color: #000000;
-    background-color: #27b4ad;
     transition: color 1s;
-    font-size: medium;
+    font-size: 105%;
+    font-family:'Times New Roman', Times, serif ;
 }
 #name{
     margin-left: -6%;
@@ -129,14 +135,14 @@ nav{
 }
 
 form{
-    background-color: #bffff890;
+    background-color: #bfffea76;
     padding: 5% ;
-    width: 40%;
+    width: 60%;
     border-radius: 10%;
     color: #000000be;
 
 }form:hover{
-    background-color: #bffff8c1;
+    background-color: #bfffea9e;
 }
 
 #book{
@@ -146,39 +152,47 @@ form{
     color: #000000;
 }
 
+
+.gender-option {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+
 input{
-    width: 45%;
+    width: 70%;
     padding: 8px;
     margin-top: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 0.5px solid #ccc;
     background-color: #fafafae3;
 }input:hover{
-    width: 42%;
-    background-color: #00000022;
+    width: 68%;
+    background-color: #00000056;
 }
 
 select{
-    width: 45%;
+    width: 30%;
     padding: 8px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #000000;
     background-color: fafafaa0;
 }select:hover{
-    width: 42%;
+    width: 31%;
     background-color: #00000057;
 }
 
 textarea{
-    width: 50%;
+    width: 70%;
     padding: 20px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: #fafafaa0;
 }textarea:hover{
-        width: 49%;
+        width: 69%;
     background-color: #00000022;
 }
 
@@ -225,4 +239,12 @@ footer p {
     margin-bottom: auto;
     margin-top: auto;
     margin: auto;
+}
+
+#logo {
+  transition: 0.5s;
+}
+
+#logo:hover {
+  transform: scale(1.10);
 }
