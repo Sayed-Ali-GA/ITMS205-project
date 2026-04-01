@@ -61,14 +61,13 @@ button {
 
 
 #link-seeProducts{
-    background-color: #f5f5ff;
-    color:#110f91 ;
+    text-decoration: none;
+    color:#0f7591 ;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     transition: color 1s;
 }#link-seeProducts:hover{
-    background-color: #cee3ff;
-    color: #006aff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #001ea4;
+    text-decoration: none;
 }
 
 
@@ -94,7 +93,7 @@ nav{
 #bar{
 
     margin-right: 1%;
-    color: #95f1ff;
+    color: #95f1ff4f;
 }
 
 #Tnav{
